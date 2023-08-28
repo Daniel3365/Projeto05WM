@@ -169,6 +169,7 @@ section.veiculos-destaque .container{
 	position: absolute;
 	height: 2px;
 	width: 100%;
+	padding: 0 2%;
 	top: 20px;
 	background: black;
 }
@@ -410,6 +411,17 @@ footer p{
 	color: white;
 	font-size: 19px;
 	font-style: italic;
+}
+
+
+/*******************/
+
+
+/********SECTION VENDA NO HTML VENDA********/
+
+section.venda{
+	padding: 90px 0;
+	min-height: 90%;
 }
 
 
