@@ -420,7 +420,7 @@ footer p{
 /********SECTION VENDA NO HTML VENDA********/
 
 section.venda{
-	padding: 90px 0;
+	padding: 90px 2%;
 	min-height: 90%;
 }
 
@@ -433,6 +433,10 @@ section.venda{
 	width: 30%; 
 }
 
+.search1{
+	width: 300px;
+}
+
 .search1 h2{
 	font-size: 24px;
 	color: black;
@@ -440,7 +444,7 @@ section.venda{
 }
 
 .search1 .barra-preco{
-	width: 300px;
+	width: 100%;
 	height: 20px;
 	background: white;
 	margin-top: 8px;
@@ -469,6 +473,57 @@ section.venda{
 	background: rgb(190, 190, 190);
 	border: 1px solid black;
 	cursor: pointer;
+}
+
+.valor-pesquisa{
+	margin-top: 8px;
+}
+
+.valor-pesquisa p{
+	color: black;
+	font-size: 15px;
+}
+
+.valor-pesquisa p:nth-of-type(1){
+	float: left;
+}
+
+.valor-pesquisa p:nth-of-type(2){
+	float: right;
+}
+
+.search2{
+	margin-top: 40px;
+}
+
+.search2 h2{
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+}
+
+.form-venda-wraper{
+	margin-top: 10px;
+}
+
+.form-venda-wraper input[type=checkbox]{
+	display: none;
+}
+
+.form-venda-wraper label{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+.form-venda-wraper span{
+	padding: 0 10px;
+	display: inline-block;
+	vertical-align: top;
 }
 
 /*******************/
@@ -566,6 +621,14 @@ section.venda{
 	.text-banner-single{
 		width: 240px;
 		font-size: 18px;
+	}
+
+	.text-banner-single:nth-of-type(2){
+		padding-right: 50px;
+	}
+
+	.text-banner-single:nth-of-type(3){
+		padding-right: 10px;
 	}
 
 	.text-banner .text-banner-single:nth-of-type(4){
