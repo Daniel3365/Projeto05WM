@@ -434,7 +434,7 @@ section.venda{
 }
 
 .search1{
-	width: 300px;
+	width: 90%;
 }
 
 .search1 h2{
@@ -460,7 +460,7 @@ section.venda{
 	width: 30%;
 	height: 20px;
 	border-radius: 20px;
-	background: rgb(200, 200, 200);
+	background: linear-gradient(to bottom,rgb(255,255,255),rgb(200,200,200));
 }
 
 .pointer-barra{
@@ -470,8 +470,8 @@ section.venda{
 	left: calc(30% - 13px);
 	top: -3px;
 	border-radius: 13px;
-	background: rgb(190, 190, 190);
-	border: 1px solid black;
+	background: linear-gradient(to bottom,rgb(255,255,255),rgb(180,180,180));
+	border: 1px solid #777;
 	cursor: pointer;
 }
 
@@ -518,12 +518,49 @@ section.venda{
 	border-radius: 3px;
 	vertical-align: top;
 	cursor: pointer;
+	position: relative;
+}
+
+.form-venda-wraper input[type=checkbox]:checked + label > .circle{
+	display: block;
+}
+
+.circle{
+	width: 8px;
+	height: 8px;
+	display: none;
+	border-radius: 4px;
+	background: black;
+	position: absolute;
+	left: 6px;
+	top: 6px;
 }
 
 .form-venda-wraper span{
 	padding: 0 10px;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.vitrine-venda{
+	float: left;
+	width: 70%;
+}
+
+.vitrine-venda .vitrine-destaque{
+	margin-top: 20px;
+}
+
+.vitrine-venda .vitrine-destaque h2{
+	padding-left: 11px;
+}
+
+.vitrine-venda .vitrine-destaque p{
+	padding-left: 11px;
+}
+
+.vitrine-venda .vitrine-destaque .btn1{
+	margin-left: 15px;
 }
 
 /*******************/
@@ -605,6 +642,26 @@ section.venda{
 	footer p{
 		float: none;
 	}
+
+	.sidebar{
+		width: 100%;
+		text-align: center;
+	}
+	
+	.search1{
+		display: inline-block;
+	}
+
+	.search2{
+		display: inline-block;
+		text-align: left;
+	}
+
+	.vitrine-venda{
+		text-align: center;
+		width: 100%;
+	}
+	 
 }
 
 @media screen and (max-width:580px){
